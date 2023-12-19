@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+.beneficiaryDiv {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(rgb(247, 247, 247), rgb(211, 211, 211), rgb(179, 178, 178));
+    font-size: large;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+}
+
+.beneficiaryHeader {
+    padding: 18px;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.beneficiaryDetails {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+
+}
+
+.beneficiaryTableRecurring {
+    float: right;
+    padding: 150px 25px 0 0;
+}
+
+.beneficiaryTableRight {
+    /*pointer-events: none;
+    opacity: 0.4;*/
+
+}
+
+.beneficiaryDetails {
+    /*border: 1px solid rgb(163, 163, 163);
+    border-radius: 15px;*/
+
+}
+
+.beneficiaryTableLeft {}
+
+.beneficiaryDetails tr {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding: 0 25px;
+}
+
+.beneficiaryDetails td {
+    min-width: 175px;
+}
+
+.beneficiaryDetails .column2 {
+    padding-left: 50px;
+
+}
+
+.beneficiaryDetails select {
+    user-select: none;
+    min-width: 300px;
+    min-height: 30px;
+}
+
+#beneficiaryIDAmount,
+#beneficiaryIDAccountNo,
+#beneficiaryIDRemarks {
+    min-width: 300px;
+    min-height: 30px;
+}
+
+.beneficiaryLabel,
+select,
+input,
+label,
+#beneficiaryInputList {
+    font-family: 'Roboto';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.beneficiaryTransferFrom {
+    width: 50px;
+}
+
+input[type="radio"] {
+    margin-left: 0;
+}
+
+#beneficiaryIDFreqRecurring {
+    padding-left: 25px;
+    gap: 2px;
+}
+
+.beneficiaryFreq {
+    margin-left: 15px;
+}
+
+/*Date Picker*/
+#datePickInline {
+    display: inline;
+}
+
+.react-datepicker {
+    font-size: 1em;
+}
+
+.react-datepicker__view-calendar-icon input {
+    padding: 6px 25px 5px 25px;
+}
+
+/*Make beneficiary*/
+.beneficiaryMakebeneficiary {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+#beneficiaryIDMakebeneficiary {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    background-color: #d61212;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.beneficiaryRemarks .optional {
+    font-style: italic;
+    font-size: 14px;
+}

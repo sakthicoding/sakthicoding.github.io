@@ -1,0 +1,33 @@
+html {
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+select {
+    height: 35px !important;
+    padding-left: 25px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    cursor: pointer;
+    text-align: left;
+}
+
+input,
+label {
+    font-family: 'Roboto';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*Date Picker*/
+#datePickInline {
+    display: inline;
+}
+
+.react-datepicker {
+    font-size: 1em;
+}
+
+.react-datepicker__view-calendar-icon input {
+    padding: 6px 25px 5px 25px;
+}

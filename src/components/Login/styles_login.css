@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+form {
+    background: rgb(250, 250, 250);
+}
+
+div {
+    display: block;
+}
+
+/*Main Page Separation*/
+.loginFrame {
+    display: flex;
+    width: 50%;
+    background: rgb(250, 250, 250);
+}
+
+.side_Left_BankingVideo {
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.side_Right_Login {
+    margin-left: -25%;
+    z-index: 1000;
+    min-width: 450px;
+    /*margin-left: -250pt;*/
+    padding: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .36);
+}
+
+/*Image logo*/
+
+.imageLogo {
+    min-width: 350px;
+    max-width: 350px;
+    width: 350px;
+    padding: 25px 0 0 25px;
+}
+
+/*Frame Left - Video*/
+.videoFrame {
+    margin: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.videoFrame video {
+    min-width: 100%;
+    height: auto;
+}
+
+.loginInput {
+    text-align: center;
+}
+
+.loginInput div {
+    padding: 7px 0;
+}
+
+.loginWelcomeMessage {
+    font-size: 28px;
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+}
+
+.loginBankNameText {
+    font-size: 31px;
+    color: #ee1c25;
+    font-family: 'Playpen Sans';
+    font-weight: bolder;
+}
+
+.login_input_info input {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    appearance: none;
+    border-radius: 0px;
+    border-width: 0px 0px 0.1rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    outline: none;
+    position: relative;
+    transition: box-shadow 0.2s ease-in-out 0s;
+    width: 100%;
+    height: 3.5rem;
+    font-family: 'Noto Sans';
+}
+
+/*Login Button*/
+#loginNameLogin_ID {
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    background-color: #d61212;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+    font-size: 25px;
+}
+
+/*Frame Right - Input details*/
+.loginInput {
+    display: grid;
+}
+
+/*Signup Info*/
+.signupInfo {
+    margin-top: 35px;
+    font-size: 15px;
+    font-family: 'Noto Sans';
+}
+
+.signupInfoText {
+    margin-bottom: 10px;
+}
+
+/*General*/
+select,
+input,
+label {
+    font-family: 'Roboto';
+    font-size: 20px;
+    cursor: pointer;
+}

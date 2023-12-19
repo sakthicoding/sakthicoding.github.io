@@ -1,0 +1,110 @@
+#errorImage {
+    background-color:rgb(250, 250, 250);;
+    max-width: 600px;
+    height: auto;
+    background-position: center;
+    border-radius: 10%;
+    margin: 25px;
+}
+
+#errorText img{
+    pointer-events: none;
+}
+
+#errorText {
+    margin-top: 50px;
+    text-align: center;
+}
+
+p.errorP-contact {
+    color: black;
+    font-size: 20px;
+    font-family: 'Karla';
+    padding: 15px;
+}
+
+#contactDora {
+    text-decoration: none;
+    font-size: 25px;
+    background-image: linear-gradient(to right, rgb(134, 14, 134), rgba(18, 107, 207, 0.603), rgb(255, 136, 0), green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#contactDora:hover, #goHome:hover, #msgSwiper:hover {
+    text-shadow: #FC0 1px 0 10px;
+}
+
+#goHome {
+    text-decoration: none;
+    font-size: 25px;
+    background-image: linear-gradient(to left, black, magenta, green, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+#errorHeader {
+    font-family: 'Indie Flower';
+    padding-bottom: 25px;
+    font-size: 40px;
+    color: black;
+    /*background: linear-gradient(to left, #f32170, #ff6b08,
+            #cf23cf, #eedd44)
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;*/
+}
+
+.errorP-msg {
+    font-family: 'Karla';
+    color: black;
+    /*color: rgb(0, 47, 255);*/
+    font-size: 25px;
+}
+
+#msgSwiper {
+    text-decoration: none;
+    font-size: 25px;
+    background-image: linear-gradient(to left, black, magenta, green, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    position: relative;
+}
+
+#msgSwiper:hover .toolTip {
+    visibility: visible;
+  }
+
+
+.toolTip {
+    visibility: hidden;
+    z-index: 1000;
+    background-color: #192733;
+}
+
+#toolTipBottom {
+    top: 25px;
+    left: -50%;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 90%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+.errorP-errortext {
+    padding: 25px;
+    text-align: left;
+    color: lightgray;
+    font-family: 'Ubuntu';
+}

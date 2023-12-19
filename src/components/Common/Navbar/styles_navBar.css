@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+.header {
+    position: fixed;
+    align-items: center;
+    z-index: 999;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: #f2f2f2;
+    line-height: 20px;
+    padding: 10px 0px;
+}
+
+.header .logo {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    color: #f2f2f2;
+    line-height: 20px;
+    padding: 10px 10px;
+}
+
+.logo {
+    height: 80px;
+    margin-right: 75px;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.header .home {
+    display: flex;
+}
+
+.header .header-right {
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.header .header-right li.sub-header {
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+.header .header-right ul li {
+    display: inline;
+    float: left;
+}
+
+.header-right .sub-header .inline-block .signout {
+    color: #d81e05;
+}
+
+.navBar {
+    width: 100%;
+    position: fixed;
+    padding-top: 100px;
+    z-index: 1000;
+
+    min-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.navBar .navHomePage ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d61212;
+    border-radius: 12px;
+}
+
+.navBar .navHomePage ul li {
+    float: left;
+}
+
+.navBar .navHomePage ul li a {
+    display: block;
+    padding: 15px 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Kanit';
+    font-size: 18px;
+    text-align: center;
+}
+
+.navBar .navHomePage ul li a:hover {
+    background-color: white;
+    color: #d61212;
+    border-radius: 12px;
+    border: 1px solid #d61212;
+    padding: 14px 49px;
+}
+
+
+.welcome {
+    padding: 150px 15px 15px 15px;
+}
+
+.welcome .welcomeMsg {
+    margin-top: 10px;
+    font-weight: bolder;
+    padding: 10px;
+    font-family: 'Playpen Sans';
+    font-size: 20px;
+    text-align: right;
+}
+
+.welcome .lastLogin {
+    padding: 0 0;
+}

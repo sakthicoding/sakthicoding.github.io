@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+form {
+    background: rgb(250, 250, 250);
+}
+
+div {
+    display: block;
+}
+
+/*Main Page Separation*/
+.signupFrame {
+    display: flex;
+    width: 50%;
+    background: rgb(250, 250, 250);
+}
+
+.side_Left_BankingVideo {
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.side_Right_signup {
+    background-color: black;
+    margin-left: -25%;
+    margin-top: -50px;
+    z-index: 1000;
+    padding: 40px 10px 20px 10px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .36);
+}
+
+/*Image logo*/
+
+.imageLogo {
+    min-width: 350px;
+    max-width: 350px;
+    width: 350px;
+    padding: 25px 0 0 25px;
+}
+
+/*Frame Left - Video*/
+.videoFrame {
+    margin: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.videoFrame video {
+    min-width: 100%;
+    height: auto;
+}
+
+/*Frame Right - Input details*/
+.signupInput {
+    display: grid;
+    text-align: center;
+    min-width: 450px;
+}
+
+.signupHeadBankDetails div {
+    padding: 7px 0;
+}
+
+.signupWelcomeMessage {
+    font-size: 28px;
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+}
+
+.signupBankNameText {
+    font-size: 31px;
+    color: #ee1c25;
+    font-family: 'Playpen Sans';
+    font-weight: bolder;
+}
+
+.signup_input_info label {
+    text-align: left;
+}
+
+.signup_input_info span {
+    margin-left: 15px;
+
+}
+
+.signup_input_info input {
+    text-align: left;
+    height: 2.5rem;
+    font-family: 'Noto Sans';
+    margin-left: 15px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid black;
+    appearance: none;
+    outline: none;
+}
+
+/*signup Button*/
+#signupNamesignup_ID {
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    background-color: #d61212;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+    font-size: 25px;
+}
+
+
+/*Signup Info*/
+.signupInfo {
+    margin-top: 35px;
+    font-size: 15px;
+    font-family: 'Noto Sans';
+}
+
+.signupInfoText {
+    margin-bottom: 10px;
+}
+
+
+
+/**/
+.signupFrame tr {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 25px 0 25px;
+}
+
+.signupFrame td {
+    min-width: 150px;
+}
+
+.signupFrame .column2 {
+    
+
+}
+
+.signupFrame select {
+    user-select: none;
+    min-width: 248px;
+    min-height: 30px;
+}
+
+/**/
+.signupAccountSelection {
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+
+.signupAccountSelection tr{
+    height: 50px;
+}
+
+.signupAccountSelectionTitle {
+    font-size: larger;
+    font-family: 'Noto Sans';
+    color: #ee1c25;
+    font-weight: bold;
+    padding: 5px 10px ;
+    margin: -15px 0 10px 130px;
+    background: #fff;
+    width: fit-content;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    pointer-events: none
+}
